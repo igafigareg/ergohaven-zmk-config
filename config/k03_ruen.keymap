@@ -12,7 +12,7 @@
     behaviors {
         enc_vol: enc_vol {
             compatible = "zmk,behavior-sensor-rotate";
-            #binding-cells = <0>;
+            #sensor-binding-cells = <0>;
             bindings = <&kp C_VOL_DN &kp C_VOL_UP>;
         };
 
