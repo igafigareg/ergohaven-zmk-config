@@ -58,7 +58,7 @@
                 <&to_ru>;
 
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         ru: ru {
@@ -76,7 +76,7 @@
                 <&to_en>;
 
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         /*
@@ -370,11 +370,11 @@
         ru_l6 {
             display-name = "RU override L6";
             bindings = <
-&trans  &trans        &trans  &trans  &trans  &trans                           &trans         &trans      &trans        &trans    &trans            &trans
-&trans  &trans        &trans  &trans  &trans  &trans                           &en AMPERSAND  &en LS(N7)  &trans        &en FSLH  &en PIPE          &kp LS(N3)
-&trans  &kp LC(LEFT)  &trans  &trans  &trans  &kp LC(RIGHT)                    &trans         &trans      &kp RU_COLON  &trans    &kp RU_SEMICOLON  &none
-&trans  &trans        &trans  &trans  &trans  &trans         &trans    &trans  &trans         &kp GRAVE   &kp RBKT      &trans    &trans            &trans
-                      &trans  &trans  &trans  &trans         &trans    &trans  &trans         &trans      &trans        &trans
+&trans  &trans        &trans  &trans  &trans  &trans                           &trans     &trans         &trans        &trans        &trans            &trans
+&trans  &trans        &trans  &trans  &trans  &trans                           &en LCTRL  &en AMPERSAND  &trans        &kp RU_SLASH  &en PIPE          &kp LS(N3)
+&trans  &kp LC(LEFT)  &trans  &trans  &trans  &kp LC(RIGHT)                    &trans     &trans         &kp RU_COLON  &trans        &kp RU_SEMICOLON  &none
+&trans  &trans        &trans  &trans  &trans  &trans         &trans    &trans  &trans     &kp GRAVE      &kp RBKT      &trans        &trans            &trans
+                      &trans  &trans  &trans  &trans         &trans    &trans  &trans     &trans         &trans        &trans
             >;
 
             sensor-bindings = <&enc_vol &enc_vol &enc_vol &enc_vol &enc_vol &enc_vol>;
