@@ -166,6 +166,11 @@
             if-layers = <11 4>;
             then-layer = <15>;
         };
+
+        Gaming-Fix {
+            if-layers = <3>;
+            then-layer = <2>;
+        };
     };
 
     combos {
@@ -244,8 +249,8 @@
             display-name = "7 Fn";
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans                              &trans      &trans         &trans        &trans     &trans    &trans
-&kp F1  &kp F2  &kp F3     &kp UP     &kp F4     &kp F6                              &kp LS(N6)  &kp LS(N7)     &kp LS(N8)    &kp FSLH   &kp PIPE  &ru LS(N3)
-&kp F7  &kp F9  &kp LEFT   &kp DOWN   &kp RIGHT  &kp F5                              &kp LC(F)   &kp LS(EQUAL)  &kp LS(SEMI)  &kp EQUAL  &kp SEMI  &ruen_ru
+&kp F1  &kp F2  &kp F3     &trans     &kp F4     &kp F6                              &kp LS(N6)  &kp LS(N7)     &kp LS(N8)    &kp FSLH   &kp PIPE  &ru LS(N3)
+&kp F7  &kp F9  &trans     &trans     &trans     &kp F5                              &kp LC(F)   &kp LS(EQUAL)  &kp LS(SEMI)  &kp EQUAL  &kp SEMI  &ruen_ru
 &trans  &kp F8  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp PRINTSCREEN  &trans     &trans  &kp LC(H)   &ru GRAVE      &ru RBKT      &kp BSLH   &trans    &trans
                 &kp F12    &m1        &kp F9     &kp F10          &kp F11    &trans  &mo 5       &trans         &trans        &trans
             >;
