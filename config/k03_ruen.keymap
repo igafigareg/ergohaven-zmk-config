@@ -201,8 +201,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
-            display-name = "0 Base";
+        Base {
+            display-name = "Base";
             bindings = <
 &kp F1    &kp F2  &kp F3    &kp F4   &kp F5     &kp F6                          &kp F7  &kp F8     &kp F9     &kp F10   &kp F11       &kp F12
 &kp ESC   &kp Q   &kp W     &kp E    &kp R      &kp T                           &kp Y   &kp U      &kp I      &kp O     &kp P         &kp LBKT
@@ -214,8 +214,8 @@
             sensor-bindings = <&enc_vol &enc_vol &enc_vol &enc_vol &enc_vol &enc_vol>;
         };
 
-        layer1 {
-            display-name = "1 Game";
+        Gaming {
+            display-name = "Gaming";
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
 &kp MINUS  &trans  &trans  &trans  &trans  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
@@ -230,11 +230,11 @@
         layer6 {
             display-name = "6 Nav";
             bindings = <
-&trans       &trans        &trans        &trans     &trans       &trans                             &trans      &trans         &trans        &trans     &trans    &trans
-&to 0        &kp HOME      &kp LC(HOME)  &kp UP     &kp LC(END)  &kp END                            &kp LS(N6)  &kp LS(N7)     &kp LS(N8)    &kp FSLH   &kp PIPE  &ru LS(N3)
-&kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN   &kp RIGHT    &kp LC(RIGHT)                      &kp LC(F)   &kp LS(EQUAL)  &kp LS(SEMI)  &kp EQUAL  &kp SEMI  &ruen_ru
-&m3          &kp LG(TAB)   &kp PG_UP     &kp ENTER  &kp PG_DN    &kp PRINTSCREEN  &trans    &trans  &kp LC(H)   &ru GRAVE      &ru RBKT      &kp BSLH   &trans    &trans
-                           &kp LA(F4)    &m0        &trans       &trans           &trans    &trans  &mo 5       &trans         &trans        &trans
+&trans       &trans        &trans        &trans     &trans       &trans                             &trans     &trans         &trans        &trans     &trans    &trans
+&to 0        &kp HOME      &kp LC(HOME)  &kp UP     &kp LC(END)  &kp END                            &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp FSLH   &kp PIPE  &ru LS(N3)
+&kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN   &kp RIGHT    &kp LC(RIGHT)                      &kp LC(F)  &kp LS(EQUAL)  &kp LS(SEMI)  &kp EQUAL  &kp SEMI  &ruen_ru
+&m3          &kp LG(TAB)   &kp PG_UP     &kp ENTER  &kp PG_DN    &kp PRINTSCREEN  &trans    &trans  &kp LC(H)  &trans         &trans        &kp BSLH   &trans    &trans
+                           &kp LA(F4)    &m0        &trans       &trans           &trans    &trans  &mo 5      &trans         &trans        &trans
             >;
 
             sensor-bindings = <&enc_vol &enc_vol &enc_vol &enc_vol &enc_vol &enc_vol>;
@@ -266,8 +266,8 @@
             sensor-bindings = <&enc_vol &enc_vol &enc_vol &enc_vol &enc_vol &enc_vol>;
         };
 
-        layer11 {
-            display-name = "11 Media";
+        Media_Numbers {
+            display-name = "Media&Numbers";
             bindings = <
 &trans  &trans  &trans  &trans  &studio_unlock  &trans                    &trans  &trans        &trans            &trans        &trans  &trans
 &to 0   &trans  &trans  &trans  &trans          &trans                    &trans  &trans        &trans            &trans        &trans  &trans
@@ -370,11 +370,11 @@
         ru_l6 {
             display-name = "RU override L6";
             bindings = <
-&trans  &trans        &trans  &trans  &trans  &trans                           &trans      &trans      &trans        &trans    &trans            &trans
-&trans  &trans        &trans  &trans  &trans  &trans                           &en LS(N6)  &en LS(N7)  &trans        &en FSLH  &en LS(BSLH)      &kp LS(N3)
-&trans  &kp LC(LEFT)  &trans  &trans  &trans  &kp LC(RIGHT)                    &trans      &trans      &en LS(SEMI)  &trans    &kp RU_SEMICOLON  &none
-&trans  &trans        &trans  &trans  &trans  &trans         &trans    &trans  &trans      &kp GRAVE   &kp RBKT      &trans    &trans            &trans
-                      &trans  &trans  &trans  &trans         &trans    &trans  &trans      &trans      &trans        &trans
+&trans  &trans        &trans  &trans  &trans  &trans                           &trans         &trans      &trans        &trans    &trans            &trans
+&trans  &trans        &trans  &trans  &trans  &trans                           &en AMPERSAND  &en LS(N7)  &trans        &en FSLH  &en PIPE          &kp LS(N3)
+&trans  &kp LC(LEFT)  &trans  &trans  &trans  &kp LC(RIGHT)                    &trans         &trans      &kp RU_COLON  &trans    &kp RU_SEMICOLON  &none
+&trans  &trans        &trans  &trans  &trans  &trans         &trans    &trans  &trans         &kp GRAVE   &kp RBKT      &trans    &trans            &trans
+                      &trans  &trans  &trans  &trans         &trans    &trans  &trans         &trans      &trans        &trans
             >;
 
             sensor-bindings = <&enc_vol &enc_vol &enc_vol &enc_vol &enc_vol &enc_vol>;
