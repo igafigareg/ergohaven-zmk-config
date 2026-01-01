@@ -166,11 +166,6 @@
             if-layers = <11 4>;
             then-layer = <15>;
         };
-
-        Gaming-Fix {
-            if-layers = <3>;
-            then-layer = <2>;
-        };
     };
 
     combos {
