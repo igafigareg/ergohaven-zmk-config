@@ -58,7 +58,7 @@
                 <&to_ru>;
 
             wait-ms = <0>;
-            tap-ms = <0>;
+            tap-ms = <30>;
         };
 
         ru: ru {
@@ -76,7 +76,7 @@
                 <&to_en>;
 
             wait-ms = <0>;
-            tap-ms = <0>;
+            tap-ms = <30>;
         };
 
         /*
