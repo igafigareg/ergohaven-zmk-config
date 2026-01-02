@@ -231,11 +231,11 @@
 
         ru_sym {
             bindings = <
-&trans  &trans              &trans       &trans        &trans      &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp RU_EXCLAMATION  &en AT_SIGN  &en HASH      &en DOLLAR  &kp RU_PERCENT                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans              &trans       &kp RU_COMMA  &kp RU_DOT  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans              &trans       &trans        &trans      &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans       &trans        &trans      &trans          &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans       &trans        &trans      &trans                            &trans     &trans            &trans                &trans             &trans  &trans
+&trans  &kp RU_EXCLAMATION  &en AT_SIGN  &en HASH      &en DOLLAR  &kp RU_PERCENT                    &en TILDE  &en LEFT_BRACKET  &en LEFT_BRACE        &en RIGHT_BRACKET  &trans  &trans
+&trans  &trans              &trans       &kp RU_COMMA  &kp RU_DOT  &trans                            &en GRAVE  &trans            &kp RU_DOUBLE_QUOTES  &trans             &trans  &trans
+&trans  &trans              &trans       &trans        &trans      &trans          &trans    &trans  &trans     &trans            &trans                &trans             &trans  &trans
+                            &trans       &trans        &trans      &trans          &trans    &trans  &trans     &trans            &trans                &trans
             >;
         };
     };
