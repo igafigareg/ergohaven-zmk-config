@@ -97,7 +97,7 @@
         compatible = "zmk,conditional-layers";
 
         ru_base {
-            if-layers = <0 4>;
+            if-layers = <4>;
             then-layer = <5>;
         };
     };
