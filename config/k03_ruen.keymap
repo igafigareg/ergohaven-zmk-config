@@ -35,7 +35,7 @@
             bindings = <&kp LG(SPACE)>;
             label = "TO_RU";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         to_en: to_en {
@@ -44,7 +44,7 @@
             bindings = <&kp LG(SPACE)>;
             label = "TO_EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         layer_en: layer_en {
@@ -53,7 +53,7 @@
             bindings = <&to 0 &to_en>;
             label = "LAYER_EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         layer_ru: layer_ru {
@@ -61,7 +61,7 @@
             #binding-cells = <0>;
             bindings = <&to 0 &to_ru>;
             label = "LAYER_RU";
-            tap-ms = <30>;
+            tap-ms = <50>;
             wait-ms = <0>;
         };
 
@@ -80,7 +80,7 @@
 
             label = "EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         ruen_ru: ruen_ru {
@@ -88,6 +88,7 @@
             #binding-cells = <0>;
             bindings = <&to_ru &tog 2>;
             label = "RUEN_RU";
+            tap-ms = <50>;
         };
 
         ruen_en: ruen_en {
@@ -95,6 +96,7 @@
             #binding-cells = <0>;
             bindings = <&to_en &tog 2>;
             label = "RUEN_EN";
+            tap-ms = <50>;
         };
 
         ru: ru {
@@ -112,7 +114,7 @@
 
             label = "RU";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         gaming_on: gaming_on {
@@ -120,7 +122,7 @@
             #binding-cells = <0>;
             bindings = <&tog 1 &kp LEFT_GUI>;
             label = "GAMING_ON";
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
     };
 
