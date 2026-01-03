@@ -223,8 +223,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans     &trans              &trans                     &trans            &trans            &trans
 &trans  &trans  &trans  &trans  &trans  &trans                      &en CARET  &en AMPERSAND       &trans                     &kp RU_SLASH      &en PIPE          &kt RU_NUMERO
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans     &trans              &kt RU_COLON               &trans            &kt RU_SEMICOLON  &none
-&trans  &trans  &trans  &trans  &trans  &trans  &ruen_en    &trans  &trans     &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &kt RU_BACKSLASH  &trans            &trans
-                &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans              &trans                     &trans
+&trans  &trans  &trans  &trans  &trans  &ruen_en  &trans    &trans  &trans     &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &kt RU_BACKSLASH  &trans            &trans
+                &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans              &trans                     &trans
             >;
         };
 
