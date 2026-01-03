@@ -210,11 +210,11 @@
 
         ru_base {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_7)  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp NUMBER_1  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
+&trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
+&trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
+&trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_7)  &trans
+                      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -233,7 +233,7 @@
 &trans    &trans              &trans       &trans        &trans      &trans                            &trans     &trans            &trans                &trans             &trans            &trans
 &trans    &kp RU_EXCLAMATION  &en AT_SIGN  &en HASH      &en DOLLAR  &kp RU_PERCENT                    &en TILDE  &en LEFT_BRACKET  &en LEFT_BRACE        &en RIGHT_BRACKET  &trans            &trans
 &ruen_en  &trans              &trans       &kp RU_COMMA  &kp RU_DOT  &trans                            &en GRAVE  &trans            &kp RU_DOUBLE_QUOTES  &trans             &kp SINGLE_QUOTE  &trans
-&trans    &trans              &trans       &trans        &trans      &trans          &trans    &none   &trans     &en LESS_THAN     &en RIGHT_BRACE       &en GREATER_THAN   &trans            &trans
+&trans    &trans              &trans       &trans        &trans      &trans          &trans    &trans  &none      &en LESS_THAN     &en RIGHT_BRACE       &en GREATER_THAN   &trans            &trans
                               &trans       &trans        &trans      &trans          &trans    &trans  &trans     &trans            &trans                &trans
             >;
         };
