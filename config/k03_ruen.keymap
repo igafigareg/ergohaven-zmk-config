@@ -222,10 +222,10 @@
 
         ru_nav {
             bindings = <
-&kp RU_N8  &trans  &trans  &trans  &trans  &trans                      &trans     &trans              &trans                     &trans            &trans            &trans
-&trans     &trans  &trans  &trans  &trans  &trans                      &en CARET  &en AMPERSAND       &trans                     &kp RU_SLASH      &en PIPE          &kt RU_NUMERO
-&trans     &trans  &trans  &trans  &trans  &trans                      &trans     &trans              &kt RU_COLON               &trans            &kt RU_SEMICOLON  &none
-&trans     &trans  &trans  &trans  &trans  &ruen_en  &trans    &trans  &trans     &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &kt RU_BACKSLASH  &trans            &trans
+&kp RU_N8  &trans  &trans  &trans  &trans  &trans                      &trans     &trans              &trans                     &trans             &trans      &trans
+&trans     &trans  &trans  &trans  &trans  &trans                      &en CARET  &en AMPERSAND       &trans                     &kp LS(BACKSLASH)  &en PIPE    &kt LS(N3)
+&trans     &trans  &trans  &trans  &trans  &trans                      &trans     &trans              &kt LS(N6)                 &trans             &kt LS(N4)  &none
+&trans     &trans  &trans  &trans  &trans  &ruen_en  &trans    &trans  &trans     &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &kt BACKSLASH      &trans      &trans
                    &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans              &trans                     &trans
             >;
         };
