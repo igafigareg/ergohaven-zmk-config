@@ -163,7 +163,7 @@
 &trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                                 &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)  &ru RU_NUMERO
 &kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                           &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &to_ru
 &trans       &kp LG(TAB)   &kp PG_UP     &kp RET   &kp PG_DN    &kp PRINTSCREEN  &trans         &trans  &kp LC(H)      &trans        &trans         &kp BSLH   &trans        &trans
-                           &kp LA(F4)    &trans    &trans       &trans           &bootloader    &trans  &trans         &trans        &trans         &trans
+                           &kp LA(F4)    &trans    &trans       &trans           &bootloader    &trans  &mo 5          &trans        &trans         &trans
             >;
         };
 
@@ -183,7 +183,7 @@
 &trans  &kp LS(EXCL)   &kp LS(AT)  &kp LS(AT)  &kp LS(DLLR)  &kp LS(PRCNT)                         &kp LS(TILDE)  &kp LBKT      &kp LS(LBRC)  &kp RBKT      &trans   &trans
 &none   &kp LS(UNDER)  &kp MINUS   &kp COMMA   &kp DOT       &kp LC(S)                             &kp GRAVE      &kp LS(LPAR)  &kp LS(DQT)   &kp LS(RPAR)  &kp SQT  &trans
 &trans  &kp LC(Z)      &kp LC(X)   &kp LC(C)   &kp LC(V)     &kp LC(A)      &trans    &trans       &trans         &kp LS(LT)    &kp LS(RBRC)  &kp LS(GT)    &tog 6   &trans
-                       &trans      &trans      &trans        &trans         &trans    &bootloader  &trans         &trans        &trans        &trans
+                       &trans      &trans      &trans        &mo 5          &trans    &bootloader  &trans         &trans        &trans        &trans
             >;
         };
 
@@ -231,11 +231,11 @@
 
         ru_sym {
             bindings = <
-&trans  &trans              &trans       &trans        &trans      &trans                            &trans     &trans            &trans                &trans             &trans  &trans
-&trans  &kp RU_EXCLAMATION  &en AT_SIGN  &en HASH      &en DOLLAR  &kp RU_PERCENT                    &en TILDE  &en LEFT_BRACKET  &en LEFT_BRACE        &en RIGHT_BRACKET  &trans  &trans
-&trans  &trans              &trans       &kp RU_COMMA  &kp RU_DOT  &trans                            &en GRAVE  &trans            &kp RU_DOUBLE_QUOTES  &trans             &trans  &trans
-&trans  &trans              &trans       &trans        &trans      &trans          &trans    &trans  &trans     &trans            &trans                &trans             &trans  &trans
-                            &trans       &trans        &trans      &trans          &trans    &trans  &trans     &trans            &trans                &trans
+&trans    &trans              &trans       &trans        &trans      &trans                            &trans     &trans            &trans                &trans             &trans            &trans
+&trans    &kp RU_EXCLAMATION  &en AT_SIGN  &en HASH      &en DOLLAR  &kp RU_PERCENT                    &en TILDE  &en LEFT_BRACKET  &en LEFT_BRACE        &en RIGHT_BRACKET  &trans            &trans
+&ruen_en  &trans              &trans       &kp RU_COMMA  &kp RU_DOT  &trans                            &en GRAVE  &trans            &kp RU_DOUBLE_QUOTES  &trans             &kp SINGLE_QUOTE  &trans
+&trans    &trans              &trans       &trans        &trans      &trans          &trans    &trans  &trans     &en LESS_THAN     &en RIGHT_BRACE       &en GREATER_THAN   &trans            &trans
+                              &trans       &trans        &trans      &trans          &trans    &trans  &trans     &trans            &trans                &trans
             >;
         };
     };
