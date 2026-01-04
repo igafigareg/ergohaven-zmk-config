@@ -101,7 +101,7 @@
 &kp ESC    &kp Q   &kp W         &kp E       &kp R           &kp T                                  &kp Y   &kp U            &kp I      &kp O          &kp P      &kp LEFT_BRACKET
 &kp TAB    &kp A   &kp S         &kp D       &kp F           &kp G                                  &kp H   &kp J            &kp K      &kp L          &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z   &kp X         &kp C       &kp V           &kp B   &kp LEFT_GUI    &kp RIGHT_GUI  &kp N   &kp M            &kp COMMA  &kp DOT        &kp QMARK  &kp RCTRL
-                   &kp LEFT_ALT  &kp DELETE  &kp LEFT_SHIFT  &mo 3   &kp SPACE       &kp BACKSPACE  &mo 4   &kp RIGHT_SHIFT  &kp ENTER  &kp RIGHT_ALT
+                   &kp LEFT_ALT  &kp DELETE  &kp LEFT_SHIFT  &mo 3   &kp SPACE       &kp BACKSPACE  &mo 7   &kp RIGHT_SHIFT  &kp ENTER  &kp RIGHT_ALT
             >;
 
             display-name = "Base";
@@ -138,7 +138,7 @@
 &kp G      &kp N1  &kp N2                  &kp N3  &kp N4  &kp N5                          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
 &kp MINUS  &trans  &trans                  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans                  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans                  &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans                  &trans  &trans  &trans     &mo 3        &trans  &trans  &trans  &trans  &trans  &trans  &trans
                    &mt LEFT_ALT BACKSPACE  &trans  &trans  &kp SPACE  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -153,6 +153,27 @@
             >;
 
             display-name = "nav";
+        };
+
+        nav_ru {
+            display-name = "nav_ru";
+            bindings = <
+&kp W        &kp F2        &kp F3        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8            &kp F9            &kp F10            &kp F11           &kp F12
+&trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &en LS(NUMBER_7)  &kp LS(STAR)      &kp LS(BACKSLASH)  &en LS(PIPE)      &trans
+&kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)      &kp LS(NUMBER_6)  &kp EQUAL          &kp LS(NUMBER_4)  &trans
+&trans       &trans        &kp PG_UP     &kp RET   &kp PG_DN    &layer_ru      &trans    &trans  &kp LC(H)      &kp N1            &kp N2            &kp BSLH           &trans            &trans
+                           &trans        &trans    &trans       &trans         &trans    &trans  &mo 0          &trans            &kp N0            &trans
+            >;
+        };
+
+        nav_gaming {
+            bindings = <
+&kp M   &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
         };
 
         sym_en {
@@ -178,17 +199,6 @@
             >;
         };
 
-        nav_ru {
-            display-name = "nav_ru";
-            bindings = <
-&kp W        &kp F2        &kp F3        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8            &kp F9            &kp F10            &kp F11           &kp F12
-&trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &en LS(NUMBER_7)  &kp LS(STAR)      &kp LS(BACKSLASH)  &en LS(PIPE)      &trans
-&kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)      &kp LS(NUMBER_6)  &kp EQUAL          &kp LS(NUMBER_4)  &trans
-&trans       &trans        &kp PG_UP     &kp RET   &kp PG_DN    &layer_ru      &trans    &trans  &kp LC(H)      &kp N1            &kp N2            &kp BSLH           &trans            &trans
-                           &trans        &trans    &trans       &trans         &trans    &trans  &mo 7          &trans            &kp N0            &trans
-            >;
-        };
-
         adj {
             bindings = <
 &kp A   &trans  &trans  &trans  &trans  &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
@@ -200,16 +210,6 @@
 
             display-name = "Adjust";
         };
-
-        nav_gaming {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-        };
     };
 
     conditional_layers {
@@ -217,7 +217,12 @@
 
         nav_ru {
             if-layers = <3 1>;
-            then-layer = <6>;
+            then-layer = <4>;
+        };
+
+        nav_gaming {
+            if-layers = <3 2>;
+            then-layer = <5>;
         };
     };
 };
