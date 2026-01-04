@@ -164,7 +164,7 @@
 &trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
 &trans        &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans            &trans
 &trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_7)  &trans
-                      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                      &trans  &trans  &trans  &mo 8   &trans    &trans  &mo 9   &trans  &trans  &trans
             >;
         };
 
@@ -241,17 +241,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        ru_nav {
-            if-layers = <2 3>;
-            then-layer = <8>;
-        };
-
-        ru_sym {
-            if-layers = <2 5>;
-            then-layer = <9>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
