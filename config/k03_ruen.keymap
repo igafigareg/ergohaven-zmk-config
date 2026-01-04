@@ -101,7 +101,7 @@
 &kp ESC    &kp Q   &kp W         &kp E       &kp R           &kp T                                  &kp Y   &kp U            &kp I      &kp O          &kp P      &kp LEFT_BRACKET
 &kp TAB    &kp A   &kp S         &kp D       &kp F           &kp G                                  &kp H   &kp J            &kp K      &kp L          &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z   &kp X         &kp C       &kp V           &kp B   &kp LEFT_GUI    &kp RIGHT_GUI  &kp N   &kp M            &kp COMMA  &kp DOT        &kp QMARK  &kp RCTRL
-                   &kp LEFT_ALT  &kp DELETE  &kp LEFT_SHIFT  &mo 3   &kp SPACE       &kp BACKSPACE  &mo 7   &kp RIGHT_SHIFT  &kp ENTER  &kp RIGHT_ALT
+                   &kp LEFT_ALT  &kp DELETE  &kp LEFT_SHIFT  &mo 3   &kp SPACE       &kp BACKSPACE  &mo 6   &kp RIGHT_SHIFT  &kp ENTER  &kp RIGHT_ALT
             >;
 
             display-name = "Base";
@@ -135,11 +135,11 @@
 
         gaming {
             bindings = <
-&kp G      &kp N1  &kp N2                  &kp N3  &kp N4  &kp N5                          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&kp MINUS  &trans  &trans                  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans                  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans                  &trans  &trans  &trans     &mo 3        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &mt LEFT_ALT BACKSPACE  &trans  &trans  &kp SPACE  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
+&kp G      &kp N1  &kp N2                  &kp N3  &kp N4  &kp N5                    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&kp MINUS  &trans  &trans                  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans                  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                   &mt LEFT_ALT BACKSPACE  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -149,7 +149,7 @@
 &trans           &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)   &kp HOME
 &kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI       &trans
 &kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET   &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &kp N1        &kp N2         &kp BSLH   &kp BACKSLASH  &trans
-                               &trans        &trans    &trans       &trans         &trans    &trans  &mo 2          &trans        &kp N0         &trans
+                               &trans        &trans    &trans       &trans         &trans    &trans  &mo 8          &trans        &kp N0         &trans
             >;
 
             display-name = "nav";
@@ -162,7 +162,7 @@
 &trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &en LS(NUMBER_7)  &kp LS(STAR)      &kp LS(BACKSLASH)  &en LS(PIPE)      &trans
 &kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)      &kp LS(NUMBER_6)  &kp EQUAL          &kp LS(NUMBER_4)  &trans
 &trans       &trans        &kp PG_UP     &kp RET   &kp PG_DN    &layer_en      &trans    &trans  &kp LC(H)      &kp N1            &kp N2            &kp BSLH           &trans            &trans
-                           &trans        &trans    &trans       &trans         &trans    &trans  &mo 0          &trans            &kp N0            &trans
+                           &trans        &trans    &trans       &trans         &trans    &trans  &trans         &trans            &kp N0            &trans
             >;
         };
 
@@ -171,7 +171,7 @@
 &kp M   &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -181,8 +181,8 @@
 &kp S   &trans     &kp AT    &kp DLLR   &kp HASH  &trans                       &trans     &trans    &kp CARET  &trans    &trans    &trans
 &trans  &trans     &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
 &trans  &kp BSLH   &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
-&trans  &kp COMMA  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &layer_ru  &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans
-                   &trans    &trans     &trans    &mo 2      &trans    &trans  &trans     &trans    &trans     &trans
+&trans  &kp COMMA  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &layer_ru  &kp PIPE  &kp TILDE  &kp AMPS  &tog 1    &trans
+                   &trans    &trans     &trans    &mo 8      &trans    &trans  &trans     &trans    &trans     &trans
             >;
 
             display-name = "Symbols";
@@ -195,7 +195,7 @@
 &trans  &trans        &en LT        &kp EQUAL     &en GT       &en GRAVE                        &trans          &en LBKT  &kp UNDER    &en RBKT  &trans      &trans
 &trans  &kp RU_BSLH   &kp LPAR      &kp MINUS     &kp RPAR     &kp PLUS                         &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &en RBRC  &kp EXCL    &kp RU_QUESTION
 &trans  &kp RU_COMMA  &kp RU_ASTRK  &kp RU_COLON  &kp RU_FSLH  &kp RU_NUMERO  &trans    &trans  &none           &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
-                      &trans        &trans        &trans       &mo 2          &trans    &trans  &trans          &trans    &trans       &trans
+                      &trans        &trans        &trans       &trans         &trans    &trans  &trans          &trans    &trans       &trans
             >;
         };
 
