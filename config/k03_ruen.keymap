@@ -142,7 +142,7 @@
 &kp N        &kp F2        &kp F3        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8        &kp F9         &kp F10    &kp F11        &kp F12
 &trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)   &kp HOME
 &kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI       &trans
-&trans       &kp NUMBER_2  &kp PG_UP     &kp RET   &kp PG_DN    &kp DEL        &tog 2    &trans  &kp LC(H)      &kp N1        &kp N2         &kp BSLH   &kp BACKSLASH  &trans
+&trans       &kp NUMBER_2  &kp PG_UP     &kp RET   &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &kp N1        &kp N2         &kp BSLH   &kp BACKSLASH  &trans
                            &trans        &trans    &trans       &trans         &trans    &trans  &mo 2          &trans        &kp N0         &trans
             >;
 
@@ -154,7 +154,7 @@
 &kp S   &trans     &kp AT    &kp DLLR   &kp HASH  &trans                       &trans     &trans    &kp CARET  &trans    &trans    &trans
 &trans  &trans     &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
 &trans  &kp BSLH   &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
-&trans  &kp COMMA  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans
+&trans  &kp COMMA  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &tog 2  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans
                    &trans    &trans     &trans    &mo 2      &trans    &trans  &trans     &trans    &trans     &trans
             >;
 
@@ -178,7 +178,7 @@
 &kp W        &kp F2        &kp F3        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8            &kp F9            &kp F10            &kp F11           &kp F12
 &trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &en LS(NUMBER_7)  &kp LS(STAR)      &kp LS(BACKSLASH)  &en LS(PIPE)      &trans
 &kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)      &kp LS(NUMBER_6)  &kp EQUAL          &kp LS(NUMBER_4)  &trans
-&trans       &trans        &kp PG_UP     &kp RET   &kp PG_DN    &kp DEL        &trans    &trans  &kp LC(H)      &kp N1            &kp N2            &kp BSLH           &trans            &trans
+&trans       &trans        &kp PG_UP     &kp RET   &kp PG_DN    &layer_ru      &trans    &trans  &kp LC(H)      &kp N1            &kp N2            &kp BSLH           &trans            &trans
                            &trans        &trans    &trans       &trans         &trans    &trans  &mo 7          &trans            &kp N0            &trans
             >;
         };
