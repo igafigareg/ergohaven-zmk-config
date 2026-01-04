@@ -136,7 +136,7 @@
                            &trans        &trans    &trans       &trans         &trans    &trans  &mo 5          &trans        &kp N0         &trans
             >;
 
-            display-name = "Nav";
+            display-name = "nav";
         };
 
         sym_en {
@@ -172,6 +172,17 @@
             >;
 
             display-name = "Adjust";
+        };
+
+        nav_ru {
+            display-name = "nav_ru";
+            bindings = <
+&kp NUMBER_6  &kp F2        &kp F3        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8        &kp F9            &kp F10       &kp F11           &kp F12
+&trans        &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)      &kp LS(FSLH)  &en LS(PIPE)      &trans
+&kp LA(TAB)   &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(NUMBER_6)  &kp EQUAL     &kp LS(NUMBER_4)  &trans
+&trans        &trans        &kp PG_UP     &kp RET   &kp PG_DN    &kp DEL        &trans    &trans  &kp LC(H)      &kp N1        &kp N2            &kp BSLH      &kp BACKSLASH     &trans
+                            &trans        &trans    &trans       &trans         &trans    &trans  &mo 5          &trans        &kp N0            &trans
+            >;
         };
     };
 };
