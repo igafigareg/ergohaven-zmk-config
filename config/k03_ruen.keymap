@@ -149,7 +149,7 @@
 &trans           &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)  &trans
 &kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
 &kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET   &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &trans        &trans         &kp BSLH   &trans        &trans
-                               &trans        &trans    &trans       &trans         &trans    &trans  &mo 8          &trans        &kp N0         &trans
+                               &kp LA(F4)    &trans    &trans       &trans         &trans    &trans  &mo 8          &trans        &kp N0         &trans
             >;
 
             display-name = "nav";
@@ -159,7 +159,7 @@
             display-name = "nav_ru";
             bindings = <
 &kp W        &kp F2        &kp F3        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8            &kp F9            &kp F10            &kp F11           &kp F12
-&trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &en LS(NUMBER_7)  &kp LS(STAR)      &kp LS(BACKSLASH)  &en LS(PIPE)      &trans
+&trans       &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &en LS(CARET)  &en LS(NUMBER_7)  &kp LS(STAR)      &kp LS(BACKSLASH)  &en LS(PIPE)      &kp RU_NUMERO
 &kp LA(TAB)  &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)      &kp LS(NUMBER_6)  &kp EQUAL          &kp LS(NUMBER_4)  &trans
 &trans       &trans        &kp PG_UP     &kp RET   &kp PG_DN    &layer_en      &trans    &trans  &kp LC(H)      &kp N1            &kp N2            &kp BSLH           &trans            &trans
                            &trans        &trans    &trans       &trans         &trans    &trans  &trans         &trans            &kp N0            &trans
