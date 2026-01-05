@@ -43,7 +43,7 @@
             bindings = <&kp LG(SPACE)>;
             label = "TO_RU";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         to_en: to_en {
@@ -52,7 +52,7 @@
             bindings = <&kp LG(SPACE)>;
             label = "TO_EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         layer_en: layer_en {
@@ -61,7 +61,7 @@
             bindings = <&tog 1 &to_en>;
             label = "LAYER_EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
 
         layer_ru: layer_ru {
@@ -69,7 +69,7 @@
             #binding-cells = <0>;
             bindings = <&tog 1 &to_ru>;
             label = "LAYER_RU";
-            tap-ms = <30>;
+            tap-ms = <50>;
             wait-ms = <0>;
         };
 
@@ -88,7 +88,7 @@
 
             label = "EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <50>;
         };
     };
 
@@ -135,11 +135,11 @@
 
         gaming {
             bindings = <
-&kp G      &kp N1  &kp N2                  &kp N3  &kp N4  &kp N5                    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&kp MINUS  &trans  &trans                  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans                  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans                  &trans  &trans  &trans  &mo 3     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &mt LEFT_ALT BACKSPACE  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp G      &kp N1  &kp N2                  &kp N3  &kp N4  &kp N5                          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&kp MINUS  &trans  &trans                  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans                  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans                  &trans  &trans  &trans     &mo 3        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                   &mt LEFT_ALT BACKSPACE  &trans  &trans  &kp SPACE  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -223,6 +223,11 @@
         nav_gaming {
             if-layers = <2 3>;
             then-layer = <5>;
+        };
+
+        sym_ru {
+            if-layers = <6 1>;
+            then-layer = <7>;
         };
     };
 };
