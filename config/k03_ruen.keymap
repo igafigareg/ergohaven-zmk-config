@@ -168,7 +168,7 @@
 
         nav_gaming {
             bindings = <
-&kp M   &trans  &trans  &trans  &trans   &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp M   &kp F1  &kp F2  &kp F3  &kp F4   &kp F6                      &trans  &trans  &trans  &trans  &trans  &trans
 &kp F2  &trans  &kp F3  &trans  &kp F4   &trans                      &trans  &trans  &trans  &trans  &trans  &trans
 &kp F6  &kp F9  &trans  &trans  &trans   &kp F5                      &trans  &trans  &trans  &trans  &trans  &trans
 &kp F1  &trans  &trans  &trans  &trans   &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -201,11 +201,11 @@
 
         adj {
             bindings = <
-&kp ESC  &trans  &trans  &trans  &trans  &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &to 0
-&trans   &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans            &trans        &trans        &studio_unlock
-&trans   &trans  &trans  &trans  &trans  &trans                    &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &trans        &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans    &trans  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans        &bt BT_CLR_ALL
-                 &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans            &trans
+&bt BT_CLR_ALL  &bootloader  &out OUT_BLE  &trans            &out OUT_USB  &trans                            &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &to 0
+&trans          &trans       &trans        &kp K_PLAY_PAUSE  &trans        &trans                            &trans        &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans        &studio_unlock
+&trans          &kp N1       &kp N2        &kp N3            &kp N4        &kp N5                            &kp N6        &kp N7             &kp N8            &kp N9           &kp N0        &trans
+&bootloader     &trans       &trans        &trans            &trans        &trans  &sys_reset    &sys_reset  &trans        &trans             &kp K_PLAY_PAUSE  &trans           &trans        &bootloader
+                             &trans        &trans            &trans        &trans  &trans        &trans      &trans        &trans             &trans            &trans
             >;
 
             display-name = "Adjust";
