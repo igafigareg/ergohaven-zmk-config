@@ -90,6 +90,13 @@
             wait-ms = <0>;
             tap-ms = <50>;
         };
+
+        ctrl_alt_delete: ctrl_alt_delete {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <>;
+            label = "CTRL_ALT_DELETE";
+        };
     };
 
     keymap {
@@ -145,11 +152,11 @@
 
         nav {
             bindings = <
-&kp N            &trans        &trans        &kp F4    &kp F5       &kp F6                           &kp F7         &kp F8        &kp F9         &kp F10    &kp F11       &to 0
-&trans           &kp HOME      &kp LC(HOME)  &kp UP    &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)  &trans
-&kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN  &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
-&kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET   &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &trans        &trans         &kp BSLH   &trans        &trans
-                               &kp LA(F4)    &trans    &trans       &trans         &trans    &trans  &mo 8          &trans        &kp N0         &trans
+&kp N            &kp N1        &kp N2        &kp N3              &kp N4       &kp N5                           &kp N6         &kp N7        &kp N8         &kp N9     &kp N0        &to 0
+&trans           &kp HOME      &kp LC(HOME)  &kp UP              &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)  &trans
+&kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN            &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
+&kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET             &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &trans        &trans         &kp BSLH   &trans        &trans
+                               &kp LA(F4)    &kp LC(LA(DELETE))  &trans       &trans         &trans    &trans  &mo 8          &trans        &trans         &trans
             >;
 
             display-name = "nav";
