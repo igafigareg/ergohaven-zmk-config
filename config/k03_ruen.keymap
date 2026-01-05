@@ -178,11 +178,11 @@
 
         sym {
             bindings = <
-&trans  &kp N1     &kp N2    &kp N3     &kp N4    &kp N5                       &kp N6     &kp N7        &kp N8        &kp N9        &kp N0   &to 0
-&trans  &trans     &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT      &kp LS(LBRC)  &kp RBKT      &trans   &trans
-&trans  &kp BSLH   &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LS(LPAR)  &kp LS(DQT)   &kp LS(RPAR)  &kp SQT  &trans
-&trans  &kp COMMA  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &tog 2  &layer_ru  &kp LS(LT)    &kp LS(RBRC)  &kp LS(GT)    &tog 1   &trans
-                   &trans    &trans     &trans    &mo 8      &trans    &trans  &trans     &trans        &trans        &trans
+&trans  &kp N1         &kp N2      &kp N3         &kp N4        &kp N5                           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0   &to 0
+&trans  &kp EXCL       &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &kp LS(TILDE)  &kp LBKT      &kp LS(LBRC)  &kp RBKT      &trans   &trans
+&trans  &kp LS(UNDER)  &kp MINUS   &kp COMMA      &kp DOT       &kp LC(S)                        &kp GRAVE      &kp LS(LPAR)  &kp LS(DQT)   &kp LS(RPAR)  &kp SQT  &trans
+&trans  &kp LC(Z)      &kp LC(X)   &kp LC(C)      &kp LC(V)     &kp LC(A)      &trans    &tog 2  &layer_ru      &kp LS(LT)    &kp LS(RBRC)  &kp LS(GT)    &tog 1   &trans
+                       &trans      &trans         &trans        &mo 8          &trans    &trans  &trans         &trans        &trans        &trans
             >;
 
             display-name = "sym";
