@@ -191,18 +191,18 @@
         sym_ru {
             display-name = "sym_ru";
             bindings = <
-&trans  &trans        &en AT        &en DLLR      &en HASH     &trans                           &trans          &trans    &en CARET    &trans    &trans      &trans
-&trans  &trans        &en LT        &kp EQUAL     &en GT       &en GRAVE                        &trans          &en LBKT  &kp UNDER    &en RBKT  &trans      &trans
-&trans  &kp RU_BSLH   &kp LPAR      &kp MINUS     &kp RPAR     &kp PLUS                         &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &en RBRC  &kp EXCL    &kp RU_QUESTION
-&trans  &kp RU_COMMA  &kp RU_ASTRK  &kp RU_COLON  &kp RU_FSLH  &kp RU_NUMERO  &trans    &trans  &none           &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
-                      &trans        &trans        &trans       &trans         &trans    &trans  &trans          &trans    &trans       &trans
+&kp F   &trans  &trans      &trans         &trans        &trans                            &trans         &trans      &trans                &trans      &trans   &trans
+&trans  &trans  &en LS(AT)  &kp LS(POUND)  &en LS(DLLR)  &kp RU_PERCENT                    &en LS(TILDE)  &en LBKT    &en LS(LBRC)          &en RBKT    &trans   &trans
+&trans  &trans  &trans      &kp COMMA      &kp DOT       &trans                            &en GRAVE      &trans      &kp RU_DOUBLE_QUOTES  &trans      &en SQT  &trans
+&trans  &trans  &trans      &trans         &trans        &trans          &trans    &trans  &none          &en LS(LT)  &en LS(RBRC)          &en LS(GT)  &trans   &trans
+                &trans      &trans         &trans        &trans          &trans    &trans  &trans         &trans      &trans                &trans
             >;
         };
 
         adj {
             bindings = <
-&bt BT_CLR_ALL  &bootloader  &out OUT_BLE  &trans            &out OUT_USB  &trans                            &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &to 0
-&trans          &trans       &trans        &kp K_PLAY_PAUSE  &trans        &trans                            &trans        &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans        &studio_unlock
+&kp A           &bootloader  &out OUT_BLE  &trans            &out OUT_USB  &trans                            &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &to 0
+&bt BT_CLR_ALL  &trans       &trans        &kp K_PLAY_PAUSE  &trans        &trans                            &trans        &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans        &studio_unlock
 &trans          &kp N1       &kp N2        &kp N3            &kp N4        &kp N5                            &kp N6        &kp N7             &kp N8            &kp N9           &kp N0        &trans
 &bootloader     &trans       &trans        &trans            &trans        &trans  &sys_reset    &sys_reset  &trans        &trans             &kp K_PLAY_PAUSE  &trans           &trans        &bootloader
                              &trans        &trans            &trans        &trans  &trans        &trans      &trans        &trans             &trans            &trans
