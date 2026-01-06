@@ -191,11 +191,11 @@
         sym_ru {
             display-name = "sym_ru";
             bindings = <
-&kp F   &trans  &trans      &trans         &trans        &trans                            &trans         &trans      &trans                &trans      &trans   &trans
-&trans  &trans  &en LS(AT)  &kp LS(POUND)  &en LS(DLLR)  &kp RU_PERCENT                    &en LS(TILDE)  &en LBKT    &en LS(LBRC)          &en RBKT    &trans   &trans
-&trans  &trans  &trans      &kp RU_COMMA   &kp RU_DOT    &trans                            &en GRAVE      &trans      &kp RU_DOUBLE_QUOTES  &trans      &en SQT  &trans
-&trans  &trans  &trans      &trans         &trans        &trans          &trans    &trans  &none          &en LS(LT)  &en LS(RBRC)          &en LS(GT)  &trans   &trans
-                &trans      &trans         &trans        &trans          &trans    &trans  &trans         &trans      &trans                &trans
+&kp F   &trans  &trans      &trans         &trans        &trans                    &trans         &trans      &trans                &trans      &trans   &trans
+&trans  &trans  &en LS(AT)  &en LS(POUND)  &en LS(DLLR)  &trans                    &en LS(TILDE)  &en LBKT    &en LS(LBRC)          &en RBKT    &trans   &trans
+&trans  &trans  &trans      &kp RU_COMMA   &kp RU_DOT    &trans                    &en GRAVE      &trans      &kp RU_DOUBLE_QUOTES  &trans      &en SQT  &trans
+&trans  &trans  &trans      &trans         &trans        &trans  &trans    &trans  &none          &en LS(LT)  &en LS(RBRC)          &en LS(GT)  &trans   &trans
+                &trans      &trans         &trans        &trans  &trans    &trans  &trans         &trans      &trans                &trans
             >;
         };
 
