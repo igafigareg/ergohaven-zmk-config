@@ -97,7 +97,7 @@
 
         en {
             bindings = <
-&kp B         &kp F2  &kp F3        &kp F4      &kp F5          &kp F6                              &kp F7  &kp F8           &kp F9     &kp F10        &kp F11    &kp F12
+&kp F1        &kp F2  &kp F3        &kp F4      &kp F5          &kp F6                              &kp F7  &kp F8           &kp F9     &kp F10        &kp F11    &kp F12
 &kp ESC       &kp Q   &kp W         &kp E       &kp R           &kp T                               &kp Y   &kp U            &kp I      &kp O          &kp P      &kp LEFT_BRACKET
 &kp TAB       &kp A   &kp S         &kp D       &kp F           &kp G                               &kp H   &kp J            &kp K      &kp L          &kp SEMI   &kp SQT
 &kp LEFT_ALT  &kp Z   &kp X         &kp C       &kp V           &kp B   &kp LCTRL    &kp RIGHT_GUI  &kp N   &kp M            &kp COMMA  &kp DOT        &kp QMARK  &kp RCTRL
@@ -117,7 +117,7 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp R   &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp RU_QUESTION  &trans
@@ -135,7 +135,7 @@
 
         gaming {
             bindings = <
-&kp G      &kp N1  &kp N2               &kp N3  &kp N4  &kp N5                          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &to 0
+&kp ESC    &kp N1  &kp N2               &kp N3  &kp N4  &kp N5                          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &to 0
 &kp MINUS  &trans  &trans               &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans               &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans               &trans  &trans  &trans     &mo 3        &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -145,7 +145,7 @@
 
         nav {
             bindings = <
-&kp N            &kp N1        &kp N2        &kp N3              &kp N4       &kp N5                           &kp N6         &kp N7        &kp N8         &kp N9     &kp N0        &to 0
+&trans           &kp N1        &kp N2        &kp N3              &kp N4       &kp N5                           &kp N6         &kp N7        &kp N8         &kp N9     &kp N0        &to 0
 &trans           &kp HOME      &kp LC(HOME)  &kp UP              &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)  &trans
 &kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN            &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
 &kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET             &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &trans        &trans         &kp BSLH   &trans        &trans
@@ -158,7 +158,7 @@
         nav_ru {
             display-name = "nav_ru";
             bindings = <
-&kp W   &trans  &trans  &trans  &trans  &trans                       &trans         &trans              &trans                     &trans             &trans            &to 0
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans         &trans              &trans                     &trans             &trans            &to 0
 &trans  &trans  &trans  &trans  &trans  &trans                       &en LS(CARET)  &en LS(NUMBER_7)    &trans                     &kp LS(BACKSLASH)  &en LS(PIPE)      &kp RU_NUMERO
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans         &trans              &kp LS(NUMBER_6)           &trans             &kp LS(NUMBER_4)  &trans
 &trans  &trans  &trans  &trans  &trans  &layer_en  &trans    &trans  &trans         &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &kp BSLH           &trans            &trans
@@ -168,7 +168,7 @@
 
         nav_gaming {
             bindings = <
-&kp M   &kp F1  &kp F2   &kp F3  &kp F4   &kp F6                     &trans  &trans  &trans  &trans  &trans  &to 0
+&trans  &kp F1  &kp F2   &kp F3  &kp F4   &kp F6                     &trans  &trans  &trans  &trans  &trans  &to 0
 &kp F7  &trans  &kp F11  &trans  &kp F12  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
 &kp F8  &kp F9  &trans   &trans  &trans   &kp F5                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans  &trans   &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -201,11 +201,11 @@
 
         adj {
             bindings = <
-&kp A           &bootloader  &out OUT_BLE  &trans            &out OUT_USB  &trans                            &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &to 0
+&trans          &bootloader  &out OUT_BLE  &trans            &out OUT_USB  &trans                            &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &to 0
 &bt BT_CLR_ALL  &trans       &trans        &kp K_PLAY_PAUSE  &trans        &trans                            &trans        &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans        &studio_unlock
 &trans          &kp N1       &kp N2        &kp N3            &kp N4        &kp N5                            &kp N6        &kp N7             &kp N8            &kp N9           &kp N0        &trans
 &bootloader     &trans       &trans        &trans            &trans        &trans  &sys_reset    &sys_reset  &trans        &trans             &kp K_PLAY_PAUSE  &trans           &trans        &bootloader
-                             &trans        &trans            &trans        &trans  &trans        &trans      &trans        &trans             &trans            &trans
+                             &trans        &kp KP_NUMLOCK    &trans        &trans  &trans        &trans      &trans        &trans             &trans            &trans
             >;
 
             display-name = "Adjust";
