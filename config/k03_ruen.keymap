@@ -178,7 +178,7 @@
 
         sym {
             bindings = <
-&kp S   &kp N1         &kp N2      &kp N3         &kp N4        &kp N5                           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0   &to 0
+&trans  &kp N1         &kp N2      &kp N3         &kp N4        &kp N5                           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0   &to 0
 &trans  &kp EXCL       &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &kp LS(TILDE)  &kp LBKT      &kp LS(LBRC)  &kp RBKT      &trans   &trans
 &trans  &kp LS(UNDER)  &kp MINUS   &kp COMMA      &kp DOT       &kp LC(S)                        &kp GRAVE      &kp LS(LPAR)  &kp LS(DQT)   &kp LS(RPAR)  &kp SQT  &trans
 &trans  &kp LC(Z)      &kp LC(X)   &kp LC(C)      &kp LC(V)     &kp LC(A)      &trans    &tog 2  &layer_ru      &kp LS(LT)    &kp LS(RBRC)  &kp LS(GT)    &tog 1   &trans
@@ -191,7 +191,7 @@
         sym_ru {
             display-name = "sym_ru";
             bindings = <
-&kp F   &trans  &trans      &trans         &trans        &trans                    &trans         &trans      &trans                &trans      &trans   &trans
+&trans  &trans  &trans      &trans         &trans        &trans                    &trans         &trans      &trans                &trans      &trans   &trans
 &trans  &trans  &en LS(AT)  &en LS(POUND)  &en LS(DLLR)  &trans                    &en LS(TILDE)  &en LBKT    &en LS(LBRC)          &en RBKT    &trans   &trans
 &trans  &trans  &trans      &kp RU_COMMA   &kp RU_DOT    &trans                    &en GRAVE      &trans      &kp RU_DOUBLE_QUOTES  &trans      &en SQT  &trans
 &trans  &trans  &trans      &trans         &trans        &trans  &trans    &trans  &none          &en LS(LT)  &en LS(RBRC)          &en LS(GT)  &trans   &trans
