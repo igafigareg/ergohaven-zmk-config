@@ -147,7 +147,7 @@
 &trans           &kp HOME      &kp LC(HOME)  &kp UP              &kp LC(END)  &kp END                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp FSLH   &kp LS(PIPE)  &trans
 &kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN            &kp RIGHT    &kp LC(RIGHT)                    &kp LC(F)      &kp LS(PLUS)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
 &kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET             &kp PG_DN    &none          &tog 2    &trans  &kp LC(H)      &trans        &trans         &kp BSLH   &trans        &trans
-                               &kp LA(F4)    &kp LC(LA(DELETE))  &trans       &trans         &trans    &trans  &mo 8          &trans        &trans         &trans
+                               &kp LA(F4)    &kp LC(LA(DELETE))  &trans       &trans         &trans    &trans  &mo 9          &trans        &trans         &trans
             >;
 
             display-name = "nav";
@@ -180,7 +180,7 @@
 &trans  &kp EXCL       &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &kp LS(TILDE)  &kp LBKT      &kp LS(LBRC)  &kp RBKT      &trans   &trans
 &trans  &kp LS(UNDER)  &kp MINUS   &kp COMMA      &kp DOT       &kp LC(S)                        &kp GRAVE      &kp LS(LPAR)  &kp LS(DQT)   &kp LS(RPAR)  &kp SQT  &trans
 &trans  &kp LC(Z)      &kp LC(X)   &kp LC(C)      &kp LC(V)     &kp LC(A)      &trans    &tog 2  &layer_ru      &kp LS(LT)    &kp LS(RBRC)  &kp LS(GT)    &tog 1   &trans
-                       &trans      &trans         &trans        &mo 8          &trans    &trans  &trans         &trans        &trans        &trans
+                       &trans      &trans         &trans        &mo 9          &trans    &trans  &trans         &trans        &trans        &trans
             >;
 
             display-name = "sym";
@@ -197,13 +197,23 @@
             >;
         };
 
+        digits {
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &to 0
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
         adj {
             bindings = <
 &trans          &bootloader  &out OUT_BLE  &trans            &out OUT_USB  &trans                            &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4  &to 0
 &bt BT_CLR_ALL  &trans       &trans        &kp K_PLAY_PAUSE  &trans        &trans                            &trans        &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &trans        &studio_unlock
 &trans          &kp N1       &kp N2        &kp N3            &kp N4        &kp N5                            &kp N6        &kp N7             &kp N8            &kp N9           &kp N0        &trans
 &bootloader     &trans       &trans        &trans            &trans        &trans  &sys_reset    &sys_reset  &trans        &trans             &kp K_PLAY_PAUSE  &trans           &trans        &bootloader
-                             &trans        &kp KP_NUMLOCK    &trans        &trans  &trans        &trans      &trans        &trans             &trans            &trans
+                             &trans        &kp KP_NUMLOCK    &trans        &trans  &trans        &trans      &trans        &trans             &tog 8            &trans
             >;
 
             display-name = "Adjust";
