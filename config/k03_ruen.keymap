@@ -20,11 +20,13 @@
         cmben {
             bindings = <&layer_en>;
             key-positions = <15 16>;
+            layers = <1 0>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
             key-positions = <19 20>;
+            layers = <0 1>;
         };
 
         Caps {
