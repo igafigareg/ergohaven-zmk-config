@@ -30,17 +30,19 @@
         Caps {
             bindings = <&caps_word>;
             key-positions = <52 57>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         CtrlShiftLeft {
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <52 53>;
+            layers = <0 1>;
         };
 
         CtrlShiftRight {
             bindings = <&kp RC(RIGHT_SHIFT)>;
             key-positions = <57 56>;
+            layers = <0 1>;
         };
     };
 
