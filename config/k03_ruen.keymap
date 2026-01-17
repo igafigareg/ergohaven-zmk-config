@@ -224,7 +224,7 @@
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "Dg";
+            label = "Digits";
         };
 
         adj {
