@@ -173,7 +173,7 @@
             display-name = "Nav_R";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans         &trans              &trans                     &trans    &trans            &to 0
-&trans  &trans  &trans  &trans  &trans  &trans                       &en LS(CARET)  &en LS(NUMBER_7)    &trans                     &en PIPE  &en LS(N7)        &kp RU_NUMERO
+&trans  &trans  &trans  &trans  &trans  &trans                       &en LS(CARET)  &en LS(NUMBER_7)    &trans                     &en PIPE  &kp LS(N7)        &kp RU_NUMERO
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans         &trans              &kp LS(NUMBER_6)           &trans    &kp LS(NUMBER_4)  &trans
 &trans  &trans  &trans  &trans  &trans  &layer_en  &trans    &trans  &trans         &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_HARD_SIGN  &kp BSLH  &trans            &trans
                 &trans  &trans  &trans  &trans     &trans    &trans  &trans         &trans              &trans                     &trans
