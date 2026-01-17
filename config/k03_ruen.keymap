@@ -116,7 +116,7 @@
                       &kp LEFT_GUI  &kp DELETE  &kp LEFT_SHIFT  &mo 3   &kp SPACE    &kp BACKSPACE  &mo 6   &kp RIGHT_SHIFT  &kp ENTER  &kp RIGHT_ALT
             >;
 
-            display-name = "Base";
+            display-name = "en";
             sensor-bindings =
                 <&enc_vol>,
                 <&enc_vol>,
