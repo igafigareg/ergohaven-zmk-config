@@ -159,10 +159,10 @@
 
         nav {
             bindings = <
-&trans           &kp N1        &kp N2        &kp N3              &kp N4              &kp N5                           &kp N6         &kp N7         &kp N8         &kp N9     &kp N0     &to 0
-&trans           &kp HOME      &kp LC(HOME)  &kp UP              &kp LC(END)         &kp END                          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)   &kp PIPE   &kp QMARK  &trans
-&kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN            &kp RIGHT           &kp LC(RIGHT)                    &kp LC(F)      &kp LS(EQUAL)  &kp LS(COLON)  &kp EQUAL  &kp SEMI   &trans
-&kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET             &kp PG_DN           &none          &tog 2    &trans  &kp LC(H)      &trans         &trans         &kp BSLH   &trans     &trans
+&trans           &kp N1        &kp N2        &kp N3              &kp N4              &kp N5                           &kp N6         &kp N7         &kp N8         &kp N9     &kp N0        &to 0
+&trans           &kp HOME      &kp LC(HOME)  &kp UP              &kp LC(END)         &kp END                          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)   &kp PIPE   &kp QMARK     &trans
+&kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN            &kp RIGHT           &kp LC(RIGHT)                    &kp LC(F)      &kp LS(EQUAL)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
+&kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET             &kp PG_DN           &none          &tog 2    &trans  &kp LC(H)      &trans         &trans         &kp BSLH   &kp LC(FSLH)  &trans
                                &kp LA(F4)    &kp LC(LA(DELETE))  &kp LC(LEFT_SHIFT)  &trans         &trans    &trans  &mo 9          &trans         &trans         &trans
             >;
 
