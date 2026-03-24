@@ -147,11 +147,11 @@
 
         gaming {
             bindings = <
-&kp ESC                &kp N1  &kp N2         &kp N3  &kp N4                      &kp N5                                         &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &to 0
-&kp MINUS              &trans  &trans         &trans  &trans                      &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans                 &trans  &trans         &trans  &trans                      &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
-&mt RCTRL KP_NUMBER_8  &trans  &trans         &trans  &trans                      &trans     &lt 3 N                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                               &kp BACKSPACE  &trans  &mt LEFT_SHIFT KP_NUMBER_9  &kp SPACE  &mt LEFT_ALT KP_NUMBER_0    &trans  &trans  &trans  &trans  &trans
+&kp ESC                &kp N1  &kp N2         &kp N3  &kp N4          &kp N5                             &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &to 0
+&kp MINUS              &trans  &trans         &trans  &trans          &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans                 &trans  &trans         &trans  &trans          &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&mt RCTRL KP_NUMBER_8  &trans  &trans         &trans  &trans          &trans     &lt 3 KP_N0     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                               &kp BACKSPACE  &trans  &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "G";
@@ -163,7 +163,7 @@
 &trans           &kp HOME      &kp LC(HOME)  &kp UP              &kp LC(END)         &kp END                          &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)   &kp PIPE   &kp QMARK     &trans
 &kp LA(TAB)      &kp LC(LEFT)  &kp LEFT      &kp DOWN            &kp RIGHT           &kp LC(RIGHT)                    &kp LC(F)      &kp LS(EQUAL)  &kp LS(COLON)  &kp EQUAL  &kp SEMI      &trans
 &kp PRINTSCREEN  &kp LG(TAB)   &kp PG_UP     &kp RET             &kp PG_DN           &none          &tog 2    &trans  &kp LC(H)      &trans         &trans         &kp BSLH   &kp LC(FSLH)  &trans
-                               &kp LA(F4)    &kp LC(LA(DELETE))  &kp LC(LEFT_SHIFT)  &trans         &trans    &trans  &mo 9          &trans         &trans         &trans
+                               &kp LA(F4)    &kp LC(LA(DELETE))  &kp LC(LEFT_SHIFT)  &trans         &trans    &trans  &mo 9          &trans         &kp LC(SLASH)  &trans
             >;
 
             display-name = "Nav";
